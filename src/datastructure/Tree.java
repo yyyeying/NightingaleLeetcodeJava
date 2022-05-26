@@ -36,6 +36,10 @@ public class Tree {
         }
     }
 
+    public Tree(TreeNode root){
+        this.root = root;
+    }
+
     public int[] levelOrder() {
         if (root == null) {
             return new int[0];
